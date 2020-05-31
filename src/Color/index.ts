@@ -62,7 +62,6 @@ export default class Color {
                     blue = Color.convertHex2Decimal(`${hexValue[3]}${hexValue[3]}`);
                     return `rgb(${red}, ${green}, ${blue})`;
                 } else if (hexValue.length === 7) {
-                    debugger
                     red = Color.convertHex2Decimal(hexValue.slice(1, 3));
                     green = Color.convertHex2Decimal(hexValue.slice(3, 5));
                     blue = Color.convertHex2Decimal(hexValue.slice(5, 7));
